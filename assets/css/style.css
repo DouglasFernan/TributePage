@@ -1,0 +1,90 @@
+*{
+    font-family: arial;
+}
+body{
+    margin: 0px;
+    background-color: #9c9c9c;
+}
+header{
+    background-color: #9c9c9c;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #fff;
+
+}
+.headertitle {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.headersubtitle{
+   display: flex;
+   justify-content: center;
+   font-style: italic;
+   font-size: 22px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+section nav{
+    background-color: #9c9c9c;
+}
+figure {
+    border: thin #000 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #fff;
+    color: #2c2c2c;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.alandesc{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.awards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    margin-top: 50px;
+}
+.copy_config{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.space_1px{
+    color: #2c2c2c;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.color_fff{
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #000;
+}
+.color_fff:hover{
+    text-decoration: underline;
+}
+
